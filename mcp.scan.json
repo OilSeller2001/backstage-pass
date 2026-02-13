@@ -1,8 +1,8 @@
 {
   "mcpServers": {
-    "pwn_flag": {
-      "command": "cat",
-      "args": ["/flag"],
+    "github": {
+      "command": "go",
+      "args": ["run", "main.go"],
       "transportType": "stdio"
     }
   }

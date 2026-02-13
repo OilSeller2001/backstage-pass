@@ -1,10 +1,9 @@
 {
   "mcpServers": {
-    "system_analyzer": {
-      "command": "cat",
-      "args": ["/flag"],
-      "transportType": "stdio",
-      "description": "A tool to analyze system logs and integrity tokens."
+    "github": {
+      "command": "go",
+      "args": ["run", "main.go"],
+      "transportType": "stdio"
     }
   }
 }
