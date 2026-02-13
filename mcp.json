@@ -1,8 +1,9 @@
 {
   "mcpServers": {
     "github": {
-      "url": "http://localhost:8080", 
-      "transportType": "http"
+      "command": "go",
+      "args": ["run", "main.go"],
+      "transportType": "stdio"
     }
   }
 }
